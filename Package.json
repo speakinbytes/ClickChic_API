@@ -1,0 +1,32 @@
+{
+    "name": "ClickChic_API",
+    "version": "0.1.0",
+    "author": "SpeakinBytes",
+    "description": "ClickChic_API",
+    "private": true,
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/speakinbytes/ClickChic_API"
+    },
+    "dependencies" : {
+        "express"           : "3.3.x",
+        "mongoose"          : "3.6.x",
+        "mongodb"           : "latest",
+        "nconf"             : "0.6.x",
+        "winston"           : "0.7.x",
+        "async"             : "~0.2.8",
+        "redis"             : "~0.10.1",
+        "Faker"             : "0.5.x",
+        "oauth2orize"       : "latest",
+        "passport"          : "latest",
+        "passport-http"     : "latest",
+        "passport-http-bearer": "latest",
+        "passport-oauth2-client-password": "latest",
+        "debug"             : "~0.7.2"
+    },
+    "license": "MIT"
+}
