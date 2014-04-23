@@ -45,7 +45,7 @@ mongoose.connect(config.get('mongoose:uri')+':'+config.get('mongoose:port'), fun
     console.log('ERROR: connecting to Database. ' + err);
   } else {
         console.log('Connected to Database');
-        server.listen(process.env.PORT || config.get('port'), process.env.IP || config.get('localhost'), function(){
+        server.listen(process.env.PORT || config.get('port'), function(){
             var addr = server.address();
             console.log("Node start at ", addr.address + ":" + addr.port);
         });
